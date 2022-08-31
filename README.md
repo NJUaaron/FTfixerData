@@ -1,4 +1,4 @@
-# AdHere
+# FTfixer - Data Presentation Page
 
 AdHere is an automated framework that assesses compliance with the Better Ads Standards and
 helps website developers to detect and fix the violations.
@@ -11,12 +11,12 @@ the script used for the preliminary study, and the dataset.
 The Preliminary Study Toolset is used to get the compliance status from Google Ad Experience Report.
 
 ## Dependencies
-- Python 3 (recommended >= 3.7)  
-- Python 3 libraries: Selenium, lxml, wmi, pywin32, requests
-- Google Chrome (recommended version >= 79) 
-- [ChromeDriver](https://chromedriver.chromium.org/): Version corresponding to Chrome version and OS
+- Node.js
 
-## Setup Instructions
+
+
+
+## How to reproduce the experiment result 
 
 Please first download 
 the source code [here](https://github.com/adhere-tech/adhere-tech.github.io/tree/master/SourceCode).
@@ -46,4 +46,6 @@ the source code [here](https://github.com/adhere-tech/adhere-tech.github.io/tree
 
 ## Dataset
 
-Due to the large volume of data, this section only lists 
+#### Web_e2e_repos_Dec_14_2021.xlsx
+In the paper, we collected 100,000 top-star JavaScript repositories from GitHub using GitHub Search API. We filtered out 250 repos containing web e2e testing and stored them in this file. This data is collected on December 14th, 2021. Repositories are listed in descending order of star number.
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS5ZE44hEsM4pQxB8k8Nm6Iz66EsIzes4ZtYjJfNuWKqW32Ku_c_Lk4JY7K0x9nWXK2dpeZqFWtPOCa/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
